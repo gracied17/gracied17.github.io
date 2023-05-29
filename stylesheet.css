@@ -22,13 +22,13 @@ body {
     float: left;
     color: rgb(47, 214, 136);
     font-weight: bolder;
-    font-size: large;
+    font-size: 24px;
     text-decoration: none;
     transition: .3s;
 }
 .navbar a:hover {
     color:rgb(101, 255, 183);
-    font-size: 20px;
+    font-size: 26px;
 }
 .home {
     position: relative;
@@ -42,13 +42,13 @@ body {
 }
 
 .home-content h1 span{
-    font-size:50px;
+    font-size:55px;
     color: rgb(47, 214, 136);
 }
 
 .home-content p {
     color: rgba(208, 226, 242, 0.426);
-    font-size: 25px;
+    font-size: 30px;
 }
 .home-sci a {
     display: inline-flex;
@@ -84,6 +84,7 @@ body {
 
 img[src*="bio_photo.png"] {
     border-radius: 50%;
-
-
+    object-fit: cover;
+     width: 530px;
+     height: 530px;
 }
