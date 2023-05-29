@@ -1,7 +1,4 @@
-var typed= new typed(".text", {
-    Strings:["gracie", "hi"],
-    typeSpeed:100,
-    backSpeed:100,
-    backDelay:1000,
-    loop:true
+var typed= new Typed(".text", {
+    strings:["hey... \ni'm Gracie"],
+    typeSpeed: 100,
 })
