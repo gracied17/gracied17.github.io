@@ -1,2 +1,2 @@
-# gracied17.github.io
-Personal Website
+Tulane Purity Test
+just for funzies
