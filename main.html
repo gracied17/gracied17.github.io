@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<head>
+    <title>Tulane Purity Test</title>
+    <meta name="description" content = "Tulane's version of the Rice Purity Test">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="title">
+        <h1>TULANE PURITY TEST</h1>
+    </div>
+    <div class="heading">
+        <h2>Tulane's Version of the Rice Purity Test</h2>
+    </div>
+    <div class ="description">
+        <p>This Purity Test is specifically designed for the students of Tulane University. The Rice Purity tracks the maturation of ones experience throughout college, but Tulane is not orindary college and therefor requires a test of its own.</p>
+        <p><strong>DISCLAIMER: This is NOT a bucket list. Completion of this list could result in death or expulsion from campus. None of these actions are condoned by the creator.</strong></p>
+    </div>
+    <!-- 
+#1 fake id
+#2 illness related
+#3. Frat Party Related
+#4. Bar related
+#5. Drug Related
+#6. Mardi Gras Related
+#7. Sex related
+#8. Academic Related
+#9. Disciplinary
+#10. Parents weekend
+#11. Sorority/Fraternity related
+#12. Theft
+#13. Miscelaneous
+-->
+<div id="score"></div>
+<br>
+<div id="meaning"></div>
+<br>
+<div id="buttondiv">
+    <input class="button" id="refresh" type="submit" value="Clear Page" onClick="clearPage()">
+</div>
+<br>
+<div id="list">
+    <ol>
+        <li><input type = "checkbox" id = "1">Own a fake ID</li>
+        <li><input type = "checkbox" id = "1">Gotten fake ID confiscated</li>
+        <li><input type = "checkbox" id = "2">TEMS'ed for a drug/alcohol related incidence</li>
+        <li><input type = "checkbox" id = "2">TEMS'ed more than once for a drug/alcohol related incidence</li>
+        <li><input type = "checkbox" id = "2">Gotten a respiratory illness</li>
+        <li><input type = "checkbox" id = "2">Gotten a respiratory illness every year at Tulane</li>
+        <li><input type = "checkbox" id = "2">Lost your voice completely</li>
+        <li><input type = "checkbox" id = "3">Climbed on the KA Roof</li>
+        <li><input type = "checkbox" id = "3">Attended a foam darty</li>
+        <li><input type = "checkbox" id = "3">Mooned someone on an elevated platform</li>
+        <li><input type = "checkbox" id = "3">Stole from a frat</li>
+        <li><input type = "checkbox" id = "3">Got roofied at a frat/bar</li>
+        <li><input type = "checkbox" id = "3">Gone to every frat in one day</li>
+        <li><input type = "checkbox" id = "3">Take a shot using a Shotski</li>
+        <li><input type = "checkbox" id = "4">Gone to the Boot</li>
+        <li><input type = "checkbox" id = "4">Had a Boot hookup</li>
+        <li><input type = "checkbox" id = "4">Had more than one Boot hookup in the same night</li>
+        <li><input type = "checkbox" id = "4">Stole a pitcher at Pitcher night</li>
+        <li><input type = "checkbox" id = "4">Been to Wine Night at Bruno's</li>
+        <li><input type = "checkbox" id = "4">Finished an entire bottle of wine by yourself at Burno's</li>
+        <li><input type = "checkbox" id = "4">Stayed at the Boot until closing</li>
+        <li><input type = "checkbox" id = "4">Stayed at the Palms until closing</li>
+        <li><input type = "checkbox" id = "4">Got rejected at the Palms</li>
+        <li><input type = "checkbox" id = "4">Bought Boot Pizza completely sober</li>
+        <li><input type = "checkbox" id = "4">Rode a mechanical bull</li>
+        <li><input type = "checkbox" id = "4">spend more than $100 on a night out</li>
+        <li><input type = "checkbox" id = "5">Done a whippet</li>
+        <li><input type = "checkbox" id = "5">Finished an entire box of whippets in one day</li>
+        <li><input type = "checkbox" id = "5">Gotten drunk seven days in a row</li>
+        <li><input type = "checkbox" id = "5">Gotten drunk fourteen days in a row</li>
+        <li><input type = "checkbox" id = "5">Done hard drugs (anything harder than whippets, nicotine, marijuana)</li>
+        <li><input type = "checkbox" id = "5">mixed hard drugs together</li>
+        <li><input type = "checkbox" id = "5">Attended class inebriated/high</li>
+        <li><input type = "checkbox" id = "5">Gone to Commons drunk</li>
+        <li><input type = "checkbox" id = "5">Smoked in the Wall Garden</li>
+        <li><input type = "checkbox" id = "5">Threw up in Hillel bathroom</li>
+        <li><input type = "checkbox" id = "5">had to administer narcan to a friend</li>
+        <li><input type = "checkbox" id = "5">was administered narcan by a friend</li>
+        <li><input type = "checkbox" id = "6">Urinated in public</li>
+        <li><input type = "checkbox" id = "6">Rode in a frat UHaul to a Mardi Gras Parade</li>
+        <li><input type = "checkbox" id = "6">Urinated in public</li>
+        <li><input type = "checkbox" id = "6">Go to a parade every day during Mardi Gras break</li>
+        <li><input type = "checkbox" id = "6">Climbed on top of the Boot during Mardi Gras</li>
+        <li><input type = "checkbox" id = "24">Paid for a frat wrist-band for Mardi Gras</li>
+        <li><input type = "checkbox" id = "24">Spent more than $40 on a frat wrist-band for Mardi Gras</li>
+        <li><input type = "checkbox" id = "6">Caught a Muses Shoe</li>
+        <li><input type = "checkbox" id = "6">Caught a Zulu Coconut</li>
+        <li><input type = "checkbox" id = "6">Stayed up for Tequila Sunrise</li>
+        <li><input type = "checkbox" id = "7">Attended a Wall orgy</li>
+        <li><input type = "checkbox" id = "7">Had sex in a dorm common area</li>
+        <li><input type = "checkbox" id = "7">Had sex in an academic classroom</li>
+        <li><input type = "checkbox" id = "7">Had sex in Reily lockerroom</li>
+        <li><input type = "checkbox" id = "7">Had sex in Howie T.</li>   
+        <li><input type = "checkbox" id = "7">Had sex in a bar</li> 
+        <li><input type = "checkbox" id = "7">Had sex during a zoom lecture</li> 
+        <li><input type = "checkbox" id = "7">Hooked up with a guy over 5'8</li>
+        <li><input type = "checkbox" id = "7">Witness someone have sex in a public area</li>
+        <li><input type = "checkbox" id = "7">Watched Maurice Dupre's adult video</li>
+        <li><input type = "checkbox" id = "7">Have a one night stand</li>
+        <li><input type = "checkbox" id = "7">Had sex with more than one person in one night</li>
+        <li><input type = "checkbox" id = "7">Had sex with a member of every sorority</li>
+        <li><input type = "checkbox" id = "7">Had sex with a member of every fraternity</li>
+        <li><input type = "checkbox" id = "8">Have one or more hookups in your class</li>
+        <li><input type = "checkbox" id = "8">Pulled an all-nighter in Howie T.</li>
+        <li><input type = "checkbox" id = "8">Used adderall or other non-perscribed drugs to enhance academic performance</li>
+        <li><input type = "checkbox" id = "8">Got the lowest grade in the class on an exam</li>
+        <li><input type = "checkbox" id = "8">Sent a photo of you crying to a professor</li>
+        <li><input type = "checkbox" id = "8">Have a Chegg subscription</li>
+        <li><input type = "checkbox" id = "8">Fall asleep on a zoom lecture</li>
+        <li><input type = "checkbox" id = "8">Leave in the middle of class to get something from PJs and come back</li>
+        <li><input type = "checkbox" id = "9">Got in trouble with your RA</li>
+        <li><input type = "checkbox" id = "9">Got in trouble with a front desk security gaurd</li>
+        <li><input type = "checkbox" id = "9">Got mandatory reported</li>
+        <li><input type = "checkbox" id = "9">Had to move out of you dorm in the middle of the year</li>
+        <li><input type = "checkbox" id = "10">Got lit with your parents during parents weekend</li>
+        <li><input type = "checkbox" id = "10">Threw up in front of parents during parents weekend</li>
+        <li><input type = "checkbox" id = "10">Hit on a parent during parents weekend</li>
+        <li><input type = "checkbox" id = "11">Rushed for a social sorority/fraternity</li>
+        <li><input type = "checkbox" id = "11">Rushed for a pre-professional sorority/fraternity</li>
+        <li><input type = "checkbox" id = "11">Been hazed by any sorority/fraternity</li>
+        <li><input type = "checkbox" id = "11">Droppped your sorority/fraternity</li>
+        <li><input type = "checkbox" id = "12">Stole a Tulane sign</li>
+        <li><input type = "checkbox" id = "12">Stole an organge traffic cone and had people sign it</li>
+        <li><input type = "checkbox" id = "12">Stole from Provisions</li>
+        <li><input type = "checkbox" id = "12">Stole from the LBC</li>
+        <li><input type = "checkbox" id = "12">Stole from the Tulane Bookstore</li>
+        <li><input type = "checkbox" id = "24">Climbed on top of Howie T. construction platforms</li>
+        <li><input type = "checkbox" id = "24">Stayed in Commons for 12 hours straight</li>
+        <li><input type = "checkbox" id = "24">Attend an entire football game where Tulane won</li>
+        <li><input type = "checkbox" id = "24">Gotten a drink at every PJ's on campus</li>
+        <li><input type = "checkbox" id = "24">Attend CrawFest</li>
+        <li><input type = "checkbox" id = "24">Paid full tuition to go here</li>
+        <li><input type = "checkbox" id = "24">Ordered sexy cakes more than two nights in a row</li>
+        <li><input type = "checkbox" id = "24">Stayed out on Burboun past 4 am</li>
+        <li><input type = "checkbox" id = "24">Gone to Taylor Swift Night at House of Blues</li>
+        <li><input type = "checkbox" id = "24">Gotten inebriated with a teacher</li>
+        <li><input type = "checkbox" id = "24">Been underpaid by an on-campus job</li>
+        <li><input type = "checkbox" id = "24">Have a fizz that got 1k+ upvotes</li>
+        <li><input type = "checkbox" id = "24">Live off campus</li>
+        <li><input type = "checkbox" id = "24">Had Tulane use a bad photo of you for promotional reasons</li>
+
+
+        <!--
+been in a hit and run (either hitter or the hit), -->
+    </ol>
+    <input class="button" id="submit" type="submit" value="Calculate Score" onClick="calculateScore()">
+    <input class="button" id="reset" type="submit" value="Clear Boxes" onClick="clearBoxes()">
+</body>
