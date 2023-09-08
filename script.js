@@ -25,7 +25,7 @@ function calculateScore() {
     } else if (score >= 77) {
         meaning = "You're embodying that play work hard play hard mindset"
     } else if (score >= 45) {
-        meaning = "You're definitely on the wild side but porbably have some awesome stories to tell"
+        meaning = "You're definitely on the wild side and porbably have some awesome stories to tell"
     } else if (score >= 9) {
         meaning = "You're definitely hanging on by a thread and pretty messy."
     } else {
